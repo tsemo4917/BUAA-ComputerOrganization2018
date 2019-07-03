@@ -1,0 +1,26 @@
+
+
+
+// Instantiate the module
+hazard instance_name (
+    .instr_D(instr_D), 
+    .instr_E(instr_E), 
+    .instr_M(instr_M), 
+    .WriteAddr_W(WriteAddr_W), 
+    .RegWrite_W(RegWrite_W), 
+    .busy(busy), 
+    .IntReq(IntReq), 
+    .rs_Dforward(rs_Dforward), 
+    .rt_Dforward(rt_Dforward), 
+    .rs_Eforward(rs_Eforward), 
+    .rt_Eforward(rt_Eforward), 
+    .rt_Mforward(rt_Mforward), 
+    .IR_E_flush(IR_E_flush), 
+    .IR_D_EN(IR_D_EN), 
+    .PC_EN(PC_EN), 
+    .mulDivCal_E(mulDivCal_E), 
+    .mulDivCal_M(mulDivCal_M), 
+    .mtHILO_M(mtHILO_M)
+    );
+
+

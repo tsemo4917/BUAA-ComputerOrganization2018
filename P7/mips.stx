@@ -1,0 +1,108 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/ise_project/P7/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> Parameter xsthdpdir set to D:/ise_project/P7/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> Reading design: mips.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\ise_project\P7\PC.v" into library work
+Parsing module <PC>.
+Analyzing Verilog file "D:\ise_project\P7\NPC.v" into library work
+Parsing module <NPC>.
+Analyzing Verilog file "D:\ise_project\P7\mux.v" into library work
+Parsing module <mux_8>.
+Parsing module <mux_4>.
+Analyzing Verilog file "D:\ise_project\P7\InstrType.v" into library work
+Parsing module <InstrType>.
+Analyzing Verilog file "D:\ise_project\P7\IM.v" into library work
+Parsing module <IM>.
+Analyzing Verilog file "D:\ise_project\P7\GRF.v" into library work
+Parsing module <GRF>.
+Analyzing Verilog file "D:\ise_project\P7\EXT.v" into library work
+Parsing module <EXT>.
+Analyzing Verilog file "D:\ise_project\P7\DMDataExt.v" into library work
+Parsing module <DMDataEXT>.
+Analyzing Verilog file "D:\ise_project\P7\DM.v" into library work
+Parsing module <DM>.
+Analyzing Verilog file "D:\ise_project\P7\controller.v" into library work
+Parsing module <controller>.
+Analyzing Verilog file "D:\ise_project\P7\CMP.v" into library work
+Parsing module <CMP>.
+Analyzing Verilog file "D:\ise_project\P7\ALUMD.v" into library work
+Parsing module <ALUMD>.
+Analyzing Verilog file "D:\ise_project\P7\ALU.v" into library work
+Parsing module <ALU>.
+Analyzing Verilog file "D:\ise_project\P7\Wpart.v" into library work
+Parsing module <Wpart>.
+Analyzing Verilog file "D:\ise_project\P7\Mpart.v" into library work
+Parsing verilog file "head_def.v" included at line 21.
+Parsing module <Mpart>.
+Analyzing Verilog file "D:\ise_project\P7\hazard.v" into library work
+Parsing module <hazard>.
+Analyzing Verilog file "D:\ise_project\P7\Fpart.v" into library work
+Parsing verilog file "head_def.v" included at line 21.
+Parsing module <Fpart>.
+Analyzing Verilog file "D:\ise_project\P7\Epart.v" into library work
+Parsing verilog file "head_def.v" included at line 21.
+Parsing module <Epart>.
+Analyzing Verilog file "D:\ise_project\P7\Dpart.v" into library work
+Parsing verilog file "head_def.v" included at line 21.
+Parsing module <Dpart>.
+Analyzing Verilog file "D:\ise_project\P7\Coprocessor0.v" into library work
+Parsing verilog file "head_def.v" included at line 21.
+Parsing module <Coprocessor0>.
+Analyzing Verilog file "D:\ise_project\P7\timer.v" into library work
+Parsing module <timer>.
+Analyzing Verilog file "D:\ise_project\P7\CPU.v" into library work
+Parsing module <CPU>.
+Analyzing Verilog file "D:\ise_project\P7\bridge.v" into library work
+Parsing module <bridge>.
+Analyzing Verilog file "D:\ise_project\P7\mips.v" into library work
+Parsing module <mips>.
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 8.28 secs
+ 
+--> 
+
+Total memory usage is 4516756 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

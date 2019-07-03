@@ -1,0 +1,2 @@
+vhdtdtfi -lang verilog -prj P5new -o D:/ise_project/P5new/mux_8.tfi -lib work D:/ise_project/P5new//mux.v -module mux_8 -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj P5new -o D:/ise_project/P5new/mux_8.tfi -lib work D:/ise_project/P5new//mux.v -module mux_8 -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

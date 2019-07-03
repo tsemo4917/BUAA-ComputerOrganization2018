@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+IM instance_name (
+    .addr(addr), 
+    .Instr(Instr)
+    );
+
+

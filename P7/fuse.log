@@ -1,0 +1,75 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/ise_project/P7/mips_tb_isim_beh.exe -prj D:/ise_project/P7/mips_tb_beh.prj work.mips_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/ise_project/P7/PC.v" into library work
+Analyzing Verilog file "D:/ise_project/P7/NPC.v" into library work
+Analyzing Verilog file "D:/ise_project/P7/mux.v" into library work
+Analyzing Verilog file "D:/ise_project/P7/InstrType.v" into library work
+Analyzing Verilog file "D:/ise_project/P7/IM.v" into library work
+Analyzing Verilog file "D:/ise_project/P7/GRF.v" into library work
+Analyzing Verilog file "D:/ise_project/P7/EXT.v" into library work
+Analyzing Verilog file "D:/ise_project/P7/DMDataExt.v" into library work
+Analyzing Verilog file "D:/ise_project/P7/DM.v" into library work
+Analyzing Verilog file "D:/ise_project/P7/controller.v" into library work
+Analyzing Verilog file "D:/ise_project/P7/CMP.v" into library work
+Analyzing Verilog file "D:/ise_project/P7/ALUMD.v" into library work
+Analyzing Verilog file "D:/ise_project/P7/ALU.v" into library work
+Analyzing Verilog file "D:/ise_project/P7/Wpart.v" into library work
+Analyzing Verilog file "D:/ise_project/P7/Mpart.v" into library work
+Analyzing Verilog file "D:/ise_project/P7/hazard.v" into library work
+Analyzing Verilog file "D:/ise_project/P7/Fpart.v" into library work
+Analyzing Verilog file "D:/ise_project/P7/Epart.v" into library work
+Analyzing Verilog file "D:/ise_project/P7/Dpart.v" into library work
+Analyzing Verilog file "D:/ise_project/P7/Coprocessor0.v" into library work
+Analyzing Verilog file "D:/ise_project/P7/timer.v" into library work
+Analyzing Verilog file "D:/ise_project/P7/CPU.v" into library work
+Analyzing Verilog file "D:/ise_project/P7/bridge.v" into library work
+Analyzing Verilog file "D:/ise_project/P7/mips.v" into library work
+Analyzing Verilog file "D:/ise_project/P7/mips_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "D:/ise_project/P7/Dpart.v" Line 69: Port RegDst is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/ise_project/P7/Epart.v" Line 55: Port RegDst is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/ise_project/P7/Mpart.v" Line 60: Port RegDst is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/ise_project/P7/Wpart.v" Line 42: Port ALU_Asel is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/ise_project/P7/hazard.v" Line 62: Port mulDivCal is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/ise_project/P7/hazard.v" Line 79: Port mulDiv is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/ise_project/P7/hazard.v" Line 98: Port mulDiv is not connected to this instance
+Completed static elaboration
+Compiling module mux_4(width=32)
+Compiling module PC
+Compiling module IM
+Compiling module Fpart
+Compiling module controller
+Compiling module GRF
+Compiling module EXT
+Compiling module CMP
+Compiling module NPC
+Compiling module Dpart
+Compiling module mux_8
+Compiling module ALU
+Compiling module ALUMD
+Compiling module Epart
+Compiling module DM
+Compiling module Mpart
+Compiling module Coprocessor0
+Compiling module DMDataEXT
+Compiling module mux_4(width=5)
+Compiling module Wpart
+Compiling module InstrType
+Compiling module hazard
+Compiling module CPU
+Compiling module bridge
+Compiling module timer
+Compiling module mips
+Compiling module mips_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 21 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\mips_tb_isim_beh.exe.sim\libPortability.dll".
+Compiled 28 Verilog Units
+Built simulation executable D:/ise_project/P7/mips_tb_isim_beh.exe
+Fuse Memory Usage: 33340 KB
+Fuse CPU Usage: 984 ms

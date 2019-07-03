@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+timer instance_name (
+    .clk(clk), 
+    .reset(reset), 
+    .addr(addr), 
+    .WE(WE), 
+    .din(din), 
+    .dataOut(dataOut), 
+    .IRQ(IRQ)
+    );
+
+

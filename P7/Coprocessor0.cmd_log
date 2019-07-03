@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj P7 -o D:/ise_project/P7/Coprocessor0.tfi -lib work D:/ise_project/P7//Coprocessor0.v -module Coprocessor0 -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

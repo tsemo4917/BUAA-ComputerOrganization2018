@@ -1,0 +1,599 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: mips.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "mips.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "mips"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : mips
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\ise_project\P4\PC.v" into library work
+Parsing module <PC>.
+Analyzing Verilog file "D:\ise_project\P4\NPC.v" into library work
+Parsing module <NPC>.
+Analyzing Verilog file "D:\ise_project\P4\mux.v" into library work
+Parsing module <mux_8>.
+Parsing module <mux_4>.
+Analyzing Verilog file "D:\ise_project\P4\IM.v" into library work
+Parsing module <IM>.
+Analyzing Verilog file "D:\ise_project\P4\GRF.v" into library work
+Parsing module <GRF>.
+Analyzing Verilog file "D:\ise_project\P4\EXT.v" into library work
+Parsing module <EXT>.
+Analyzing Verilog file "D:\ise_project\P4\DM.v" into library work
+Parsing module <DM>.
+Analyzing Verilog file "D:\ise_project\P4\controller.v" into library work
+Parsing module <controller>.
+Analyzing Verilog file "D:\ise_project\P4\ALU.v" into library work
+Parsing module <ALU>.
+Analyzing Verilog file "D:\ise_project\P4\mips.v" into library work
+Parsing module <mips>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <mips>.
+
+Elaborating module <controller>.
+
+Elaborating module <PC>.
+
+Elaborating module <NPC>.
+
+Elaborating module <IM>.
+Reading initialization file \"code.txt\".
+WARNING:HDLCompiler:1670 - "D:\ise_project\P4\IM.v" Line 38: Signal <code> in initial block is partially initialized.
+
+Elaborating module <mux_4(width=5)>.
+
+Elaborating module <GRF>.
+"D:\ise_project\P4\GRF.v" Line 62. $display @0: $0 <= 0
+
+Elaborating module <ALU>.
+
+Elaborating module <DM>.
+"D:\ise_project\P4\DM.v" Line 53. $display @0: *0 <= 0
+
+Elaborating module <EXT>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <mips>.
+    Related source file is "D:\ise_project\P4\mips.v".
+    Summary:
+	inferred   4 Multiplexer(s).
+Unit <mips> synthesized.
+
+Synthesizing Unit <controller>.
+    Related source file is "D:\ise_project\P4\controller.v".
+    Summary:
+	inferred   7 Multiplexer(s).
+Unit <controller> synthesized.
+
+Synthesizing Unit <PC>.
+    Related source file is "D:\ise_project\P4\PC.v".
+    Found 32-bit register for signal <pc>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <PC> synthesized.
+
+Synthesizing Unit <NPC>.
+    Related source file is "D:\ise_project\P4\NPC.v".
+    Found 32-bit adder for signal <pc4> created at line 32.
+    Found 32-bit adder for signal <pc4[31]_ext32[29]_add_6_OUT> created at line 41.
+    Found 32-bit 4-to-1 multiplexer for signal <_n0033> created at line 28.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred   2 Multiplexer(s).
+Unit <NPC> synthesized.
+
+Synthesizing Unit <IM>.
+    Related source file is "D:\ise_project\P4\IM.v".
+WARNING:Xst:2999 - Signal 'code', unconnected in block 'IM', is tied to its initial value.
+    Found 1024x32-bit single-port Read Only RAM <Mram_code> for signal <code>.
+    Summary:
+	inferred   1 RAM(s).
+Unit <IM> synthesized.
+
+Synthesizing Unit <mux_4>.
+    Related source file is "D:\ise_project\P4\mux.v".
+        width = 5
+    Found 5-bit 4-to-1 multiplexer for signal <dataOut> created at line 43.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <mux_4> synthesized.
+
+Synthesizing Unit <GRF>.
+    Related source file is "D:\ise_project\P4\GRF.v".
+WARNING:Xst:647 - Input <WPC> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1024-bit register for signal <n0051[1023:0]>.
+    Found 32-bit 32-to-1 multiplexer for signal <RA[4]_rf[31][31]_wide_mux_1_OUT> created at line 47.
+    Found 32-bit 32-to-1 multiplexer for signal <RB[4]_rf[31][31]_wide_mux_4_OUT> created at line 49.
+    Summary:
+	inferred 1024 D-type flip-flop(s).
+	inferred  36 Multiplexer(s).
+Unit <GRF> synthesized.
+
+Synthesizing Unit <ALU>.
+    Related source file is "D:\ise_project\P4\ALU.v".
+    Found 32-bit subtractor for signal <A[31]_B[31]_sub_5_OUT> created at line 35.
+    Found 32-bit adder for signal <A[31]_B[31]_add_2_OUT> created at line 34.
+    Found 32-bit shifter logical left for signal <B[31]_A[4]_shift_left_8_OUT> created at line 37
+    Found 32-bit 4-to-1 multiplexer for signal <_n0027> created at line 26.
+    Found 32-bit comparator equal for signal <zero> created at line 31
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+	inferred   2 Multiplexer(s).
+	inferred   1 Combinational logic shifter(s).
+Unit <ALU> synthesized.
+
+Synthesizing Unit <DM>.
+    Related source file is "D:\ise_project\P4\DM.v".
+WARNING:Xst:647 - Input <pc> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <addr<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <addr<31:12>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 32768-bit register for signal <n1033[32767:0]>.
+    Found 32-bit 1024-to-1 multiplexer for signal <dout> created at line 43.
+    Summary:
+	inferred 32768 D-type flip-flop(s).
+	inferred 1025 Multiplexer(s).
+Unit <DM> synthesized.
+
+Synthesizing Unit <EXT>.
+    Related source file is "D:\ise_project\P4\EXT.v".
+    Found 32-bit 4-to-1 multiplexer for signal <imm32> created at line 25.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <EXT> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 1024x32-bit single-port Read Only RAM                 : 1
+# Adders/Subtractors                                   : 3
+ 32-bit adder                                          : 2
+ 32-bit addsub                                         : 1
+# Registers                                            : 3
+ 1024-bit register                                     : 1
+ 32-bit register                                       : 1
+ 32768-bit register                                    : 1
+# Comparators                                          : 1
+ 32-bit comparator equal                               : 1
+# Multiplexers                                         : 1078
+ 2-bit 2-to-1 multiplexer                              : 2
+ 3-bit 2-to-1 multiplexer                              : 5
+ 32-bit 1024-to-1 multiplexer                          : 1
+ 32-bit 2-to-1 multiplexer                             : 1065
+ 32-bit 32-to-1 multiplexer                            : 2
+ 32-bit 4-to-1 multiplexer                             : 2
+ 5-bit 4-to-1 multiplexer                              : 1
+# Logic shifters                                       : 1
+ 32-bit shifter logical left                           : 1
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <IM>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_code> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 1024-word x 32-bit                  |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <addr>          |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <IM> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 1024x32-bit single-port distributed Read Only RAM     : 1
+# Adders/Subtractors                                   : 3
+ 32-bit adder                                          : 2
+ 32-bit addsub                                         : 1
+# Registers                                            : 33824
+ Flip-Flops                                            : 33824
+# Comparators                                          : 1
+ 32-bit comparator equal                               : 1
+# Multiplexers                                         : 32853
+ 1-bit 1024-to-1 multiplexer                           : 32
+ 1-bit 2-to-1 multiplexer                              : 32768
+ 2-bit 2-to-1 multiplexer                              : 2
+ 3-bit 2-to-1 multiplexer                              : 5
+ 32-bit 2-to-1 multiplexer                             : 41
+ 32-bit 32-to-1 multiplexer                            : 2
+ 32-bit 4-to-1 multiplexer                             : 2
+ 5-bit 4-to-1 multiplexer                              : 1
+# Logic shifters                                       : 1
+ 32-bit shifter logical left                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <PC> ...
+
+Optimizing unit <mips> ...
+
+Optimizing unit <GRF> ...
+
+Optimizing unit <DM> ...
+
+Optimizing unit <NPC> ...
+
+Optimizing unit <ALU> ...
+WARNING:Xst:1293 - FF/Latch <_grf/rf_31_992> has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <_grf/rf_31_993> has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <_grf/rf_31_994> has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <_grf/rf_31_995> has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <_grf/rf_31_996> has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <_grf/rf_31_997> has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <_grf/rf_31_998> has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <_grf/rf_31_999> has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <_grf/rf_31_1000> has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <_grf/rf_31_1001> has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <_grf/rf_31_1002> has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <_grf/rf_31_1003> has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <_grf/rf_31_1004> has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <_grf/rf_31_1005> has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <_grf/rf_31_1006> has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <_grf/rf_31_1007> has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <_grf/rf_31_1008> has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <_grf/rf_31_1009> has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <_grf/rf_31_1010> has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <_grf/rf_31_1011> has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <_grf/rf_31_1012> has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <_grf/rf_31_1013> has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <_grf/rf_31_1014> has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <_grf/rf_31_1015> has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <_grf/rf_31_1016> has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <_grf/rf_31_1017> has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <_grf/rf_31_1018> has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <_grf/rf_31_1019> has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <_grf/rf_31_1020> has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <_grf/rf_31_1021> has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <_grf/rf_31_1022> has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <_grf/rf_31_1023> has a constant value of 0 in block <mips>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block mips, actual ratio is 102.
+Optimizing block <mips> to meet ratio 100 (+ 5) of 15850 slices :
+Area constraint is met for block <mips>, final ratio is 103.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 33792
+ Flip-Flops                                            : 33792
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : mips.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 47236
+#      GND                         : 1
+#      INV                         : 1
+#      LUT1                        : 29
+#      LUT2                        : 53
+#      LUT3                        : 60
+#      LUT4                        : 32821
+#      LUT5                        : 1078
+#      LUT6                        : 12939
+#      MUXCY                       : 100
+#      MUXF7                       : 61
+#      VCC                         : 1
+#      XORCY                       : 92
+# FlipFlops/Latches                : 33792
+#      FDR                         : 30
+#      FDRE                        : 33760
+#      FDS                         : 2
+# Clock Buffers                    : 2
+#      BUFGP                       : 2
+# IO Buffers                       : 32
+#      OBUF                        : 32
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:           33792  out of  126800    26%  
+ Number of Slice LUTs:                46981  out of  63400    74%  
+    Number used as Logic:             46981  out of  63400    74%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:  46981
+   Number with an unused Flip Flop:   13189  out of  46981    28%  
+   Number with an unused LUT:             0  out of  46981     0%  
+   Number of fully used LUT-FF pairs: 33792  out of  46981    71%  
+   Number of unique control sets:         3
+
+IO Utilization: 
+ Number of IOs:                          34
+ Number of bonded IOBs:                  34  out of    210    16%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                2  out of     32     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 33792 |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 10.110ns (Maximum Frequency: 98.907MHz)
+   Minimum input arrival time before clock: 1.827ns
+   Maximum output required time after clock: 0.747ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 10.110ns (frequency: 98.907MHz)
+  Total number of paths / destination ports: 15476257295 / 67552
+-------------------------------------------------------------------------
+Delay:               10.110ns (Levels of Logic = 16)
+  Source:            _pc/pc_4 (FF)
+  Destination:       _grf/rf_31_895 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: _pc/pc_4 to _grf/rf_31_895
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             31   0.361   0.800  _pc/pc_4 (_pc/pc_4)
+     LUT6:I0->O            1   0.097   0.295  _im/Mram_code5711_SW0 (N541)
+     LUT5:I4->O           15   0.097   0.748  _im/Mram_code5711 (instr<28>)
+     LUT5:I0->O            6   0.097   0.318  mux_RegAddr/Mmux_dataOut111 (mux_RegAddr/Mmux_dataOut11)
+     LUT4:I3->O           32   0.097   0.402  _ctrl/LinkPC11 (_ctrl/LinkPC1)
+     LUT4:I3->O           71   0.097   0.408  _ctrl/sll1 (ALU_Asrc)
+     LUT4:I3->O           30   0.097   0.790  Mmux_DA121 (DA<1>)
+     LUT5:I0->O            6   0.097   0.318  _alu/Sh21 (_alu/Sh2)
+     LUT5:I4->O            1   0.097   0.379  _alu/ALUout<2>_SW0 (N2060)
+     LUT6:I4->O         8226   0.097   0.795  _alu/ALUout<2> (ALUout<2>)
+     LUT6:I4->O            1   0.097   0.556  _dm/mux32792_2249 (_dm/mux32792_2249)
+     LUT6:I2->O            1   0.097   0.556  _dm/mux32792_1714 (_dm/mux32792_1714)
+     LUT6:I2->O            1   0.097   0.556  _dm/mux32792_124 (_dm/mux32792_124)
+     LUT6:I2->O            1   0.097   0.556  _dm/mux32792_71 (_dm/mux32792_71)
+     LUT6:I2->O            4   0.097   0.309  Mmux_RWData259 (Mmux_RWData258)
+     LUT4:I3->O           28   0.097   0.401  Mmux_RWData2510 (RWData<31>)
+     LUT5:I4->O            1   0.097   0.000  _grf/GND_7_o_rf[0][31]_mux_41_OUT<31>1 (_grf/GND_7_o_rf[0][31]_mux_41_OUT<31>)
+     FDRE:D                    0.008          _grf/rf_31_31
+    ----------------------------------------
+    Total                     10.110ns (1.921ns logic, 8.189ns route)
+                                       (19.0% logic, 81.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 33792 / 33792
+-------------------------------------------------------------------------
+Offset:              1.827ns (Levels of Logic = 1)
+  Source:            reset (PAD)
+  Destination:       _pc/pc_31 (FF)
+  Destination Clock: clk rising
+
+  Data Path: reset to _pc/pc_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     BUFGP:I->O         33792   0.000   1.478  reset_BUFGP (reset_BUFGP)
+     FDR:R                     0.349          _pc/pc_0
+    ----------------------------------------
+    Total                      1.827ns (0.349ns logic, 1.478ns route)
+                                       (19.1% logic, 80.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 32 / 32
+-------------------------------------------------------------------------
+Offset:              0.747ns (Levels of Logic = 1)
+  Source:            _pc/pc_11 (FF)
+  Destination:       outPC<11> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: _pc/pc_11 to outPC<11>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             31   0.361   0.386  _pc/pc_11 (_pc/pc_11)
+     OBUF:I->O                 0.000          outPC_11_OBUF (outPC<11>)
+    ----------------------------------------
+    Total                      0.747ns (0.361ns logic, 0.386ns route)
+                                       (48.3% logic, 51.7% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |   10.110|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 361.00 secs
+Total CPU time to Xst completion: 360.31 secs
+ 
+--> 
+
+Total memory usage is 5707028 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   38 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

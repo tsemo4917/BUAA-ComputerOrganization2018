@@ -1,0 +1,18 @@
+
+
+
+// Instantiate the module
+mux_8 instance_name (
+    .data0(data0), 
+    .data1(data1), 
+    .data2(data2), 
+    .data3(data3), 
+    .data4(data4), 
+    .data5(data5), 
+    .data6(data6), 
+    .data7(data7), 
+    .sel(sel), 
+    .dataOut(dataOut)
+    );
+
+

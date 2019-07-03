@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"D:\ise_project\P6new\mips.v" Line 247: Port <arg fmt="%s" index="1">DMDataEXT_W</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="new" >"D:\ise_project\P6new\IM.v" Line 37: Signal &lt;<arg fmt="%s" index="1">code</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"D:\ise_project\P6new\Dpart.v" Line 66: Port <arg fmt="%s" index="1">RegDst</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\ise_project\P6new\Dpart.v" Line 56: Assignment to <arg fmt="%s" index="1">Op</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\ise_project\P6new\Dpart.v" Line 59: Assignment to <arg fmt="%s" index="1">func</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"D:\ise_project\P6new\Epart.v" Line 52: Port <arg fmt="%s" index="1">RegDst</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"D:\ise_project\P6new\Mpart.v" Line 51: Port <arg fmt="%s" index="1">RegDst</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"D:\ise_project\P6new\Wpart.v" Line 41: Port <arg fmt="%s" index="1">ALU_Asel</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"D:\ise_project\P6new\hazard.v" Line 62: Port <arg fmt="%s" index="1">linkRa</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"D:\ise_project\P6new\hazard.v" Line 78: Port <arg fmt="%s" index="1">mulDiv</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"D:\ise_project\P6new\hazard.v" Line 95: Port <arg fmt="%s" index="1">mulDiv</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"D:\ise_project\P6new\hazard.v" Line 112: Port <arg fmt="%s" index="1">mulDiv</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\ise_project\P6new\hazard.v" Line 73: Assignment to <arg fmt="%s" index="1">mfHILO_D</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\ise_project\P6new\hazard.v" Line 83: Assignment to <arg fmt="%s" index="1">branch_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\ise_project\P6new\hazard.v" Line 86: Assignment to <arg fmt="%s" index="1">jr_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\ise_project\P6new\hazard.v" Line 87: Assignment to <arg fmt="%s" index="1">linkRa_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\ise_project\P6new\hazard.v" Line 88: Assignment to <arg fmt="%s" index="1">jalr_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\ise_project\P6new\hazard.v" Line 100: Assignment to <arg fmt="%s" index="1">branch_M</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\ise_project\P6new\hazard.v" Line 103: Assignment to <arg fmt="%s" index="1">jr_M</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\ise_project\P6new\hazard.v" Line 106: Assignment to <arg fmt="%s" index="1">mtHILO_M</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\ise_project\P6new\hazard.v" Line 117: Assignment to <arg fmt="%s" index="1">branch_W</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\ise_project\P6new\hazard.v" Line 119: Assignment to <arg fmt="%s" index="1">store_W</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\ise_project\P6new\hazard.v" Line 120: Assignment to <arg fmt="%s" index="1">jr_W</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\ise_project\P6new\hazard.v" Line 123: Assignment to <arg fmt="%s" index="1">mtHILO_W</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\ise_project\P6new\mips.v</arg>&quot; line <arg fmt="%d" index="2">57</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">IF</arg>&gt; of block &lt;<arg fmt="%s" index="4">Fpart</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\ise_project\P6new\mips.v</arg>&quot; line <arg fmt="%d" index="2">94</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">ID</arg>&gt; of block &lt;<arg fmt="%s" index="4">Dpart</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\ise_project\P6new\mips.v</arg>&quot; line <arg fmt="%d" index="2">149</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">EX</arg>&gt; of block &lt;<arg fmt="%s" index="4">Epart</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\ise_project\P6new\mips.v</arg>&quot; line <arg fmt="%d" index="2">206</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">MEM</arg>&gt; of block &lt;<arg fmt="%s" index="4">Mpart</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\ise_project\P6new\mips.v</arg>&quot; line <arg fmt="%d" index="2">247</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">WB</arg>&gt; of block &lt;<arg fmt="%s" index="4">Wpart</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\ise_project\P6new\mips.v</arg>&quot; line <arg fmt="%d" index="2">261</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">HazardUnit</arg>&gt; of block &lt;<arg fmt="%s" index="4">hazard</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+</messages>

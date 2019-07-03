@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\ise_project\P8new\mips.ncd
+OUTFILE=D:\ise_project\P8new\mips.bit
+FAMILY=Spartan6
+PART=xc6slx100-2fgg676
+WORKINGDIR=D:\ise_project\P8new
+LICENSE=ISE
+USER_INFO=__0_0_0

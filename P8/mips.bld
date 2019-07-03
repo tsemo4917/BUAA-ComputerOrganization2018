@@ -1,0 +1,50 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc P8_PIN_Verified_v3.ucf
+-p xc6slx100-fgg676-2 mips.ngc mips.ngd
+
+Reading NGO file "D:/ise_project/P8new/mips.ngc" ...
+Loading design module "ipcore_dir/BlockRAM_DM.ngc"...
+Loading design module "ipcore_dir/IP_IM_uart.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "P8_PIN_Verified_v3.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:178 - TNM 'clk_in', used in period specification
+   'TS_clk_in', was traced into PLL_ADV instance PLL_ADV. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT1: <TIMESPEC TS_CLK_clkout1 = PERIOD "CLK_clkout1" TS_clk_in / 0.8 HIGH
+   50%>
+
+INFO:ConstraintSystem:178 - TNM 'clk_in', used in period specification
+   'TS_clk_in', was traced into PLL_ADV instance PLL_ADV. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT0: <TIMESPEC TS_CLK_clkout0 = PERIOD "CLK_clkout0" TS_clk_in / 0.4 HIGH
+   50%>
+
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 4450788 kilobytes
+
+Writing NGD file "mips.ngd" ...
+Total REAL time to NGDBUILD completion:  4 sec
+Total CPU time to NGDBUILD completion:   4 sec
+
+Writing NGDBUILD log file "mips.bld"...

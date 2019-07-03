@@ -1,0 +1,3 @@
+vhdtdtfi -lib work D:/P4/mips/controller.v -lang verilog -prj mips -o controller.spl -module controller -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 controller.spl D:/P4/mips/controller.sym 
+vhdtdtfi -lang verilog -prj mips -o D:/P4/mips/controller.tfi -lib work D:/P4/mips//controller.v -module controller -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj P7 -o D:/ise_project/P7/hazard.tfi -lib work D:/ise_project/P7//hazard.v -module hazard -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

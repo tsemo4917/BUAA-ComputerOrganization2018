@@ -1,0 +1,253 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: mips.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "mips.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "mips"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : mips
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\ise_project\P7\PC.v" into library work
+Parsing module <PC>.
+Analyzing Verilog file "D:\ise_project\P7\NPC.v" into library work
+Parsing module <NPC>.
+Analyzing Verilog file "D:\ise_project\P7\mux.v" into library work
+Parsing module <mux_8>.
+Parsing module <mux_4>.
+Analyzing Verilog file "D:\ise_project\P7\InstrType.v" into library work
+Parsing module <InstrType>.
+Analyzing Verilog file "D:\ise_project\P7\IM.v" into library work
+Parsing module <IM>.
+Analyzing Verilog file "D:\ise_project\P7\GRF.v" into library work
+Parsing module <GRF>.
+Analyzing Verilog file "D:\ise_project\P7\EXT.v" into library work
+Parsing module <EXT>.
+Analyzing Verilog file "D:\ise_project\P7\DMDataExt.v" into library work
+Parsing module <DMDataEXT>.
+Analyzing Verilog file "D:\ise_project\P7\DM.v" into library work
+Parsing module <DM>.
+Analyzing Verilog file "D:\ise_project\P7\controller.v" into library work
+Parsing module <controller>.
+Analyzing Verilog file "D:\ise_project\P7\CMP.v" into library work
+Parsing module <CMP>.
+Analyzing Verilog file "D:\ise_project\P7\ALUMD.v" into library work
+Parsing module <ALUMD>.
+Analyzing Verilog file "D:\ise_project\P7\ALU.v" into library work
+Parsing module <ALU>.
+Analyzing Verilog file "D:\ise_project\P7\Wpart.v" into library work
+Parsing module <Wpart>.
+Analyzing Verilog file "D:\ise_project\P7\Mpart.v" into library work
+Parsing verilog file "head_def.v" included at line 21.
+WARNING:HDLCompiler:572 - "head_def.v" Line 68: Macro <lw> is redefined.
+WARNING:HDLCompiler:572 - "head_def.v" Line 69: Macro <lh> is redefined.
+WARNING:HDLCompiler:572 - "head_def.v" Line 70: Macro <lhu> is redefined.
+WARNING:HDLCompiler:572 - "head_def.v" Line 71: Macro <lb> is redefined.
+WARNING:HDLCompiler:572 - "head_def.v" Line 72: Macro <lbu> is redefined.
+Parsing module <Mpart>.
+Analyzing Verilog file "D:\ise_project\P7\hazard.v" into library work
+Parsing module <hazard>.
+Analyzing Verilog file "D:\ise_project\P7\Fpart.v" into library work
+Parsing verilog file "head_def.v" included at line 21.
+Parsing module <Fpart>.
+Analyzing Verilog file "D:\ise_project\P7\Epart.v" into library work
+Parsing verilog file "head_def.v" included at line 21.
+Parsing module <Epart>.
+Analyzing Verilog file "D:\ise_project\P7\Dpart.v" into library work
+Parsing verilog file "head_def.v" included at line 21.
+Parsing module <Dpart>.
+Analyzing Verilog file "D:\ise_project\P7\Coprocessor0.v" into library work
+Parsing verilog file "head_def.v" included at line 21.
+Parsing module <Coprocessor0>.
+Analyzing Verilog file "D:\ise_project\P7\timer.v" into library work
+Parsing module <timer>.
+Analyzing Verilog file "D:\ise_project\P7\CPU.v" into library work
+Parsing module <CPU>.
+WARNING:HDLCompiler:751 - "D:\ise_project\P7\CPU.v" Line 65: Redeclaration of ansi port HWInt is not allowed
+Analyzing Verilog file "D:\ise_project\P7\bridge.v" into library work
+Parsing module <bridge>.
+Analyzing Verilog file "D:\ise_project\P7\mips.v" into library work
+Parsing module <mips>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <mips>.
+WARNING:HDLCompiler:1016 - "D:\ise_project\P7\CPU.v" Line 323: Port DMDataEXT_W is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:\ise_project\P7\CPU.v" Line 338: Port IntReq is not connected to this instance
+
+Elaborating module <CPU>.
+
+Elaborating module <Fpart>.
+
+Elaborating module <mux_4(width=32)>.
+
+Elaborating module <PC>.
+
+Elaborating module <IM>.
+Reading initialization file \"code.txt\".
+WARNING:HDLCompiler:1670 - "D:\ise_project\P7\IM.v" Line 37: Signal <code> in initial block is partially initialized.
+Reading initialization file \"code_handler.txt\".
+WARNING:HDLCompiler:1670 - "D:\ise_project\P7\IM.v" Line 44: Signal <code> in initial block is partially initialized.
+WARNING:HDLCompiler:1016 - "D:\ise_project\P7\Dpart.v" Line 69: Port RegDst is not connected to this instance
+
+Elaborating module <Dpart>.
+
+Elaborating module <controller>.
+
+Elaborating module <GRF>.
+"D:\ise_project\P7\GRF.v" Line 67. $display  32'b................................ 5'b..... 32'b................................
+
+Elaborating module <EXT>.
+
+Elaborating module <CMP>.
+
+Elaborating module <NPC>.
+WARNING:HDLCompiler:1016 - "D:\ise_project\P7\Epart.v" Line 55: Port RegDst is not connected to this instance
+
+Elaborating module <Epart>.
+
+Elaborating module <mux_8(width=32)>.
+
+Elaborating module <ALU>.
+
+Elaborating module <ALUMD>.
+WARNING:HDLCompiler:413 - "D:\ise_project\P7\ALUMD.v" Line 58: Result of 64-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\ise_project\P7\ALUMD.v" Line 59: Result of 64-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:1016 - "D:\ise_project\P7\Mpart.v" Line 60: Port RegDst is not connected to this instance
+
+Elaborating module <Mpart>.
+WARNING:HDLCompiler:1127 - "D:\ise_project\P7\Mpart.v" Line 66: Assignment to eret_flush_D ignored, since the identifier is never used
+
+Elaborating module <DM>.
+"D:\ise_project\P7\DM.v" Line 66. $display  32'b................................ 32'b..............................00 32'b................................
+
+Elaborating module <Coprocessor0>.
+WARNING:HDLCompiler:1016 - "D:\ise_project\P7\Wpart.v" Line 43: Port ALU_Asel is not connected to this instance
+
+Elaborating module <Wpart>.
+
+Elaborating module <DMDataEXT>.
+
+Elaborating module <mux_4(width=5)>.
+WARNING:HDLCompiler:1016 - "D:\ise_project\P7\hazard.v" Line 62: Port mulDivCal is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:\ise_project\P7\hazard.v" Line 79: Port mulDiv is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:\ise_project\P7\hazard.v" Line 98: Port mulDiv is not connected to this instance
+
+Elaborating module <hazard>.
+
+Elaborating module <InstrType>.
+WARNING:HDLCompiler:1127 - "D:\ise_project\P7\hazard.v" Line 73: Assignment to mfHILO_D ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\ise_project\P7\hazard.v" Line 84: Assignment to branch_E ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\ise_project\P7\hazard.v" Line 87: Assignment to jr_E ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\ise_project\P7\hazard.v" Line 88: Assignment to linkRa_E ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\ise_project\P7\hazard.v" Line 89: Assignment to jalr_E ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\ise_project\P7\hazard.v" Line 103: Assignment to branch_M ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\ise_project\P7\hazard.v" Line 106: Assignment to jr_M ignored, since the identifier is never used
+WARNING:HDLCompiler:552 - "D:\ise_project\P7\CPU.v" Line 338: Input port IntReq is not connected on this instance
+
+Elaborating module <bridge>.
+
+Elaborating module <timer>.
+WARNING:Xst:2972 - "D:\ise_project\P7\mips.v" line 32. All outputs of instance <cpu> of block <CPU> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\ise_project\P7\mips.v" line 47. All outputs of instance <Bridge> of block <bridge> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\ise_project\P7\mips.v" line 62. All outputs of instance <timeCounter0> of block <timer> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\ise_project\P7\mips.v" line 73. All outputs of instance <timeCounter1> of block <timer> are unconnected in block <mips>. Underlying logic will be removed.

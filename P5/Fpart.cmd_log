@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj P5new -o D:/ise_project/P5new/Fpart.tfi -lib work D:/ise_project/P5new//Fpart.v -module Fpart -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

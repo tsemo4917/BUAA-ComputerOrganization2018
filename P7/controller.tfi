@@ -1,0 +1,26 @@
+
+
+
+// Instantiate the module
+controller instance_name (
+    .instr(instr), 
+    .RegDst(RegDst), 
+    .ALU_Asel(ALU_Asel), 
+    .ALU_Bsel(ALU_Bsel), 
+    .Data2Reg(Data2Reg), 
+    .RegWrite(RegWrite), 
+    .MemWrite(MemWrite), 
+    .NPCsel(NPCsel), 
+    .PCsrc(PCsrc), 
+    .ExtOp(ExtOp), 
+    .ALUctrl(ALUctrl), 
+    .storeType(storeType), 
+    .loadType(loadType), 
+    .MDctrl(MDctrl), 
+    .HILOsel(HILOsel), 
+    .cp0WE(cp0WE), 
+    .eret_flush_D(eret_flush_D), 
+    .IntEN(IntEN)
+    );
+
+

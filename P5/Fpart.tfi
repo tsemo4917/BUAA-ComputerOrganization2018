@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+Fpart instance_name (
+    .clk(clk), 
+    .reset(reset), 
+    .EN(EN), 
+    .npc(npc), 
+    .PCsrc(PCsrc), 
+    .instr_D(instr_D), 
+    .PC_D(PC_D)
+    );
+
+

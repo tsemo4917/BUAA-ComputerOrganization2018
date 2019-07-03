@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/ise_project/P5new/Dpart.v" Line 62: Port <arg fmt="%s" index="1">RegDst</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/ise_project/P5new/Epart.v" Line 47: Port <arg fmt="%s" index="1">RegDst</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/ise_project/P5new/Mpart.v" Line 44: Port <arg fmt="%s" index="1">RegDst</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/ise_project/P5new/Wpart.v" Line 39: Port <arg fmt="%s" index="1">ALU_Asel</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/ise_project/P5new/hazard.v" Line 60: Port <arg fmt="%s" index="1">linkRa</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/ise_project/P5new/hazard.v" Line 73: Port <arg fmt="%s" index="1">branch</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/ise_project/P5new/hazard.v" Line 87: Port <arg fmt="%s" index="1">branch</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/ise_project/P5new/hazard.v" Line 101: Port <arg fmt="%s" index="1">branch</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="Simulator" num="0" delta="unknown" >Unable to copy libPortabilityNOSH.dll to the simulation executable directory: <arg fmt="%s" index="1">boost::filesystem::copy_file: ￏﾵￍﾳￕￒﾲﾻﾵﾽￖﾸﾶﾨﾵￄￂﾷﾾﾶﾡﾣ, &quot;isim\mips_tb_isim_beh.exe.sim\libPortability.dll&quot;</arg>.
+</msg>
+
+</messages>
+

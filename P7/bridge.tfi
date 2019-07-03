@@ -1,0 +1,19 @@
+
+
+
+// Instantiate the module
+bridge instance_name (
+    .PrAddr(PrAddr), 
+    .PrWD(PrWD), 
+    .PrWE(PrWE), 
+    .DEV0_RD(DEV0_RD), 
+    .DEV1_RD(DEV1_RD), 
+    .PrRD(PrRD), 
+    .DEV_Addr(DEV_Addr), 
+    .DEV_WD(DEV_WD), 
+    .DEV0_WE(DEV0_WE), 
+    .DEV1_WE(DEV1_WE), 
+    .data_sel(data_sel)
+    );
+
+

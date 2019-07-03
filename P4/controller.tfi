@@ -1,0 +1,20 @@
+
+
+
+// Instantiate the module
+controller instance_name (
+    .Op(Op), 
+    .func(func), 
+    .RegDst(RegDst), 
+    .ALUSrc(ALUSrc), 
+    .Mem2Reg(Mem2Reg), 
+    .RegWrite(RegWrite), 
+    .MemWrite(MemWrite), 
+    .nPC_sel(nPC_sel), 
+    .ExtOp(ExtOp), 
+    .ALUctrl(ALUctrl), 
+    .isjr(isjr), 
+    .isjal(isjal)
+    );
+
+

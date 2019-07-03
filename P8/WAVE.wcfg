@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/ise_project/P8_1225/mips_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mips_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="25" />
+   <wvobject fp_name="/mips_tb/led_light" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">led_light[31:0]</obj_property>
+      <obj_property name="ObjectShortName">led_light[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/digital_tube2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">digital_tube2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">digital_tube2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/digital_tube_sel2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">digital_tube_sel2</obj_property>
+      <obj_property name="ObjectShortName">digital_tube_sel2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/digital_tube1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">digital_tube1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">digital_tube1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/digital_tube_sel1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">digital_tube_sel1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">digital_tube_sel1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/digital_tube0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">digital_tube0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">digital_tube0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/digital_tube_sel0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">digital_tube_sel0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">digital_tube_sel0[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/sys_rstn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sys_rstn</obj_property>
+      <obj_property name="ObjectShortName">sys_rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/clk_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_in</obj_property>
+      <obj_property name="ObjectShortName">clk_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uart_rxd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">uart_rxd</obj_property>
+      <obj_property name="ObjectShortName">uart_rxd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uart_txd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">uart_txd</obj_property>
+      <obj_property name="ObjectShortName">uart_txd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/dip_switch0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dip_switch0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dip_switch0[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/dip_switch1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dip_switch1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dip_switch1[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/dip_switch2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dip_switch2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dip_switch2[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/dip_switch3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dip_switch3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dip_switch3[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/dip_switch4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dip_switch4[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dip_switch4[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/dip_switch5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dip_switch5[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dip_switch5[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/dip_switch6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dip_switch6[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dip_switch6[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/dip_switch7" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dip_switch7[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dip_switch7[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/user_key" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">user_key[7:0]</obj_property>
+      <obj_property name="ObjectShortName">user_key[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/tube_9/data_display" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_display[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_display[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/cpu/IntReq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">IntReq</obj_property>
+      <obj_property name="ObjectShortName">IntReq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/cpu/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/bridge/PrAddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PrAddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PrAddr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/timeCounter/IRQ" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">IRQ</obj_property>
+      <obj_property name="ObjectShortName">IRQ</obj_property>
+   </wvobject>
+</wave_config>

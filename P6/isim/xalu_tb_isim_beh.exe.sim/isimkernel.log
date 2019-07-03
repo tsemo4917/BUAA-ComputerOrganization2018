@@ -1,0 +1,28 @@
+Command line:
+   xalu_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  12160
+
+Wed Dec 26 23:53:43 2018
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5178.76 Meg
+
+ Total Signals          : 32
+ Total Nets             : 314
+ Total Signal Drivers   : 23
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 28
+ Total Traceable Variables  : 29
+ Total Scalar Nets and Variables : 624
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 5178.76 Meg
+
+Wed Dec 26 23:53:51 2018
+

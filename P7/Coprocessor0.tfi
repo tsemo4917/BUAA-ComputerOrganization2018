@@ -1,0 +1,22 @@
+
+
+
+// Instantiate the module
+Coprocessor0 instance_name (
+    .reset(reset), 
+    .clk(clk), 
+    .A1(A1), 
+    .A2(A2), 
+    .din(din), 
+    .PC(PC), 
+    .ExcCode(ExcCode), 
+    .HWInt(HWInt), 
+    .WE(WE), 
+    .EXLSet(EXLSet), 
+    .EXLClr(EXLClr), 
+    .IntReq(IntReq), 
+    .EPC(EPC), 
+    .dout(dout)
+    );
+
+

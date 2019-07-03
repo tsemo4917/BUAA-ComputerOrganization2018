@@ -1,0 +1,28 @@
+Command line:
+   NPC_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  9689
+
+Thu Nov 22 22:44:41 2018
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5179.27 Meg
+
+ Total Signals          : 21
+ Total Nets             : 203
+ Total Signal Drivers   : 8
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 9
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 283
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 5493.84 Meg
+
+Thu Nov 22 22:45:21 2018
+

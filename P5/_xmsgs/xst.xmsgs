@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"D:\ise_project\P5new\IM.v" Line 36: Signal &lt;<arg fmt="%s" index="1">code</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"D:\ise_project\P5new\Dpart.v" Line 62: Port <arg fmt="%s" index="1">RegDst</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"D:\ise_project\P5new\Epart.v" Line 47: Port <arg fmt="%s" index="1">RegDst</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"D:\ise_project\P5new\Mpart.v" Line 44: Port <arg fmt="%s" index="1">RegDst</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"D:\ise_project\P5new\Wpart.v" Line 39: Port <arg fmt="%s" index="1">ALU_Asel</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"D:\ise_project\P5new\hazard.v" Line 60: Port <arg fmt="%s" index="1">linkRa</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\ise_project\P5new\InstrType.v" Line 46: Assignment to <arg fmt="%s" index="1">j</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\ise_project\P5new\hazard.v" Line 78: Assignment to <arg fmt="%s" index="1">branch_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\ise_project\P5new\hazard.v" Line 81: Assignment to <arg fmt="%s" index="1">jr_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\ise_project\P5new\hazard.v" Line 82: Assignment to <arg fmt="%s" index="1">linkRa_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\ise_project\P5new\hazard.v" Line 83: Assignment to <arg fmt="%s" index="1">jalr_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\ise_project\P5new\hazard.v" Line 92: Assignment to <arg fmt="%s" index="1">branch_M</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\ise_project\P5new\hazard.v" Line 95: Assignment to <arg fmt="%s" index="1">jr_M</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\ise_project\P5new\hazard.v" Line 106: Assignment to <arg fmt="%s" index="1">branch_W</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\ise_project\P5new\hazard.v" Line 108: Assignment to <arg fmt="%s" index="1">store_W</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\ise_project\P5new\hazard.v" Line 109: Assignment to <arg fmt="%s" index="1">jr_W</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\ise_project\P5new\mips.v</arg>&quot; line <arg fmt="%d" index="2">57</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">IF</arg>&gt; of block &lt;<arg fmt="%s" index="4">Fpart</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\ise_project\P5new\mips.v</arg>&quot; line <arg fmt="%d" index="2">95</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">ID</arg>&gt; of block &lt;<arg fmt="%s" index="4">Dpart</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\ise_project\P5new\mips.v</arg>&quot; line <arg fmt="%d" index="2">149</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">EX</arg>&gt; of block &lt;<arg fmt="%s" index="4">Epart</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\ise_project\P5new\mips.v</arg>&quot; line <arg fmt="%d" index="2">196</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">MEM</arg>&gt; of block &lt;<arg fmt="%s" index="4">Mpart</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\ise_project\P5new\mips.v</arg>&quot; line <arg fmt="%d" index="2">232</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">WB</arg>&gt; of block &lt;<arg fmt="%s" index="4">Wpart</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\ise_project\P5new\mips.v</arg>&quot; line <arg fmt="%d" index="2">245</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">HazardUnit</arg>&gt; of block &lt;<arg fmt="%s" index="4">hazard</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">addr&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">addr&lt;31:12&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">code</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">IM</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">instr&lt;25:6&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">WPC</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CMPrst&lt;2:1&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">pc</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">addr&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">addr&lt;31:12&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+</messages>
